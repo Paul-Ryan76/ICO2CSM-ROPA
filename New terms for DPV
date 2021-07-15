@@ -1,0 +1,13 @@
+dpv:DataProtectionAuthority a 
+   rdfs:Class ;
+rdfs:label "Data Protection Authority"@en ;
+dct:description "Public body tasked with data protection and privacy"@en.
+
+dpv:DataFlowMap a rdfs:Class ;
+rdfs:label "Data Flow Map"@en ;
+dct:description "A data flow map to support register of processing activities"@en ;
+rdfs:subClassOf dpv:DataProcessingActivitySpecification 
+
+dpv: Legislation a rdfs:Class ;
+rdfs:label "Legislation"@en ;
+dct:description "A collective of laws "@en .
